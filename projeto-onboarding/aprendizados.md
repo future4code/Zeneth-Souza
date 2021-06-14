@@ -1,0 +1,2 @@
+ # Aprendizado da semana
+ # Nessa primeira semana de curso intenso, onde uma leiga em programação resolveu entrar ** de cabeça** e fazer uma transição de carreira aos ** 33 anos**. Teve muito material e didatica de aprendizado, vou sem sincera não consegui me situar muito em algumas coisas, tenho que rever e ver muitos processos.
