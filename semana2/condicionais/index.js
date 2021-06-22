@@ -31,6 +31,46 @@ console.log("Heloo Pride")
     
   console.log(podeOuNaoDirigir(verificaIdade))
 
-  
+  //b)
 
+ const periodo = prompt("Em que turno você estuda? M (matutino) ou V (vespertino), ou N (noturno)")
 
+ if(periodo === "M") {
+     console.log("Bom dia!") 
+ } else if(periodo === "V") {
+     console.log("Boa tarde!")
+ } else if(periodo === "N") {
+     console.log("Boa noite!")
+ }    else {
+     console.log("Erro!")
+ }
+
+ // Exercício - 3
+ //const periodo = prompt("Em que turno você estuda? M (matutino) ou V (vespertino), ou N (noturno)")
+
+ switch(periodo) {
+     case "M":
+     console.log("Bom dia!");
+     break;
+     case "V":
+     console.log("Boa tarde!");
+     break;
+     case "N":
+    console.log("Boa noite!");
+    break;
+    default: 
+    console.log("Erro!");
+    break;
+ }
+
+ //Exercício 4
+ //Considere a situação: você vai ao cinema com um amigo ou amiga, porém ele/ela só assistirá a um filme com você se ele for do gênero fantasia e se o ingresso está abaixo de 15 reais. Faça um código que pergunta ao usuário qual o gênero de filme que vão assistir e outra pergunta sobre o preço do ingresso, então verifique se seu amigo ou amiga vai topar assistir o filme. Caso positivo, imprima no console a mensagem: "Bom filme!", caso contrário, imprima "Escolha outro filme :("Caso positivo, imprima no console a mensagem: "Bom filme!", caso contrário, imprima "Escolha outro filme :("
+
+ const genero = prompt("Qual o genero do fime?");
+ const preco = prompt("Qual o preço do ingresso?");
+
+   if (genero === "fantasia" && preco <= 15){
+     console.log("Bom filme!");
+ } else {
+     console.log("Escolha outro filme :(");
+ }
