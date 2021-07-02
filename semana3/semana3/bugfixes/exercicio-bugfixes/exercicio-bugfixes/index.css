@@ -19,6 +19,9 @@ h2 {
 input {
     height: 20px;
     width: 500px;
+    border: none;
+    outline: 0px;
+    border-bottom: 1px solid black;
 }
 
 button:focus {
@@ -26,15 +29,16 @@ button:focus {
 }
 
 img {
-    width: 100px;
+    width: 50px;
+
 }
 
 div>p:first-child {
     display: inline;
 }
 
-div img {
-    background: black;
+div>img {
+    width: 15px;
 }
 
 .botao-amarelo {
@@ -78,18 +82,11 @@ div img {
 
 #container-para-comprar {
     background-color: #e7eb90;
-    position: relative;
-
+    
 } 
-#container-para-comprar>a {
-    position: absolute;
-    top: 90px;
-    right: 550px;
-}
-
-
 
 #container-para-comprar>p {
+    display: block;
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
@@ -101,29 +98,44 @@ div img {
   *  ESTILOS COMPRAR 
   *
   **/
-
-div:nth-child(2),
-div:last-child {
-    text-align: center;
-}
-
+  div:nth-child(2),
+  div:last-child {
+      text-align: center;
+  }
+  
 table {
-    width: 60%;
-}
-
-td button {
+text-align: center;
+position: relative;
+width: 65%;
+left: 20%;
+font-family:"Roboto", sans-serif;
+font-size: 1.2em;
+} 
+  
+ td button {
     background-color: #fadf63;
     width: 150px;
     height: 30px;
     border-radius: 5px;
     color: black;
+    font-family:"Roboto", sans-serif;
+    font-size: 1.2em;
+}
+
+td button:hover {
+    background-color: #c7ac35;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
 }
 
 .container-do-search {
+    
     margin-top: 20px;
     height: 100px;
+    
 }
-
 
 #back-button {
     background-color: white;
@@ -137,4 +149,8 @@ td button {
 
 #back-button:hover {
     background-color: #635a3d
+}
+.centralizar-btn {
+    text-align: center;
+    margin-top: 100px;
 }
